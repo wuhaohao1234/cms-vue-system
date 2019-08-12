@@ -4,7 +4,7 @@
   "description": "cms后台管理系统",
   "main": "index.js",
   "scripts": {
-    "build": "npx webpack ./src/main.js --mode development"
+    "build": "npx webpack ./src/main.js --config ./build/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,15 @@
   },
   "homepage": "https://github.com/wuhaohao1234/cms-vue-system#readme",
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs2": "^7.5.5",
+    "core-js": "^2.6.9"
   }
 }
