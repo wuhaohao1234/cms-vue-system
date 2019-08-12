@@ -1,0 +1,24 @@
+{
+  "name": "cms-vue-system",
+  "version": "1.0.0",
+  "description": "cms后台管理系统",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack ./src/main.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuhaohao1234/cms-vue-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuhaohao1234/cms-vue-system/issues"
+  },
+  "homepage": "https://github.com/wuhaohao1234/cms-vue-system#readme",
+  "devDependencies": {
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
